@@ -1,0 +1,33 @@
+body {
+  font-family: sans-serif;
+  background: #f4f4f4;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+#malla {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+}
+
+.ramo {
+  width: 160px;
+  height: 80px;
+  background: #c5cae9;
+  border-radius: 10px;
+  text-align: center;
+  line-height: 80px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.ramo:hover {
+  background: #9575cd;
+  color: white;
+  transform: scale(1.05);
+}
