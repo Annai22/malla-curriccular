@@ -526,8 +526,7 @@ const ramos = [
     nombre: "Electivo profesional 4",
     semestre: 11,
     abre: [
-    
-  // Puedes seguir agregando más ramos aquí...
+    // Puedes seguir agregando más ramos aquí...
 ];
 
 const contenedor = document.getElementById("malla");
